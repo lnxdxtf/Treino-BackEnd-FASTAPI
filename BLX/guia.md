@@ -32,3 +32,8 @@ Se ele não detectou ele vai fazer essas funçõe vazias (pass)
 4- para efetivar a atualização do banco de dados utilize o coamndo de upgrade (-| alembic upgrade head |-)
 
 5 - atualize o bd e verifique se está tudo certo
+
+##### Downgrade
+        alembic downgrade base
+Vai voltar para a primeira versão. Podemos substituir o "base" pelo nome da versão.
+
